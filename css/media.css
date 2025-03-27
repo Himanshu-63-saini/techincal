@@ -1,0 +1,73 @@
+@media screen and (min-width:320px) and (max-width:570px) 
+{
+    header
+    {
+        flex-direction: column;
+    }
+    .menu ul
+    {
+        flex-direction: column  !important;
+    }
+    .banner_parent
+    {
+        flex-direction: column-reverse;
+        padding: 10px !important;
+    }
+    .main_service
+    {
+        flex-direction: column;
+    }
+    .service
+    {
+        padding: 1rem;
+    }
+    .servicebtn a
+    {
+        display: block;
+        margin: 20px; 
+        text-align: center;
+    }
+    .service_content
+    {
+        width: unset !important;
+    }
+    .banner_left h1
+    {
+        font-size: 24px !important;
+    }
+    .testimonials_content
+    {
+        height: unset;
+        width: unset;
+        margin: unset;
+    }
+    .contact_map iframe
+    {
+        width: auto;
+        margin: unset;
+    }
+    .box
+    {
+        height: unset;
+    }
+    .portfolio_main 
+    {
+        flex-direction: column;
+    }
+    .portfolio_content
+    {
+        width: unset;
+    }
+    .testimonials_main
+    {
+        flex-direction: column;
+    }
+    .service_img img
+    {
+        width: 95%;
+    }
+    .main_parent
+    {
+        padding: unset;
+    }
+}
